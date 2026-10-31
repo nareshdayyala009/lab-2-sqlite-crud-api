@@ -479,25 +479,16 @@ To verify that changes are written directly to disk and not just stored in volat
 
 ## 15. Screenshots
 
-The authentic test execution screenshots captured during development are organized below:
+All six authentic test execution screenshots are stored in the [`LAB 2/`](<LAB 2>) directory and displayed under their respective sections above:
 
-### 1. GET All Books (`/books/`)
-![GET All Books](<LAB 2/get-all-books.png>)
-
-### 2. GET Book by ID (`/books/1/`)
-![GET Book by ID](<LAB 2/get-book-by-id.png>)
-
-### 3. POST Add New Book (`/books/`)
-![POST Add Book](<LAB 2/post-add-book.png>)
-
-### 4. PUT Update Book (`/books/11/`)
-![PUT Update Book](<LAB 2/put-update-book.png>)
-
-### 5. DELETE Book (`/books/11/`)
-![DELETE Book](<LAB 2/delete-book.png>)
-
-### 6. SQLite Database Verification (`database.db`)
-![Database Verification](<LAB 2/database-verification.png>)
+| # | Screenshot File | Description | Section Link |
+| :-: | :--- | :--- | :--- |
+| 1 | [`get-all-books.png`](<LAB 2/get-all-books.png>) | Postman `GET /books/` (200 OK) retrieving all books | [View Screenshot](#screenshot-get-all-books) |
+| 2 | [`get-book-by-id.png`](<LAB 2/get-book-by-id.png>) | Postman `GET /books/1/` (200 OK) retrieving book by ID | [View Screenshot](#screenshot-get-book-by-id) |
+| 3 | [`post-add-book.png`](<LAB 2/post-add-book.png>) | Postman `POST /books/` (201 Created) adding Clean Code | [View Screenshot](#screenshot-post-add-book) |
+| 4 | [`put-update-book.png`](<LAB 2/put-update-book.png>) | Postman `PUT /books/11/` (200 OK) updating book | [View Screenshot](#screenshot-put-update-book) |
+| 5 | [`delete-book.png`](<LAB 2/delete-book.png>) | Postman `DELETE /books/11/` (200 OK) deleting book | [View Screenshot](#screenshot-delete-book) |
+| 6 | [`database-verification.png`](<LAB 2/database-verification.png>) | DB Browser for SQLite showing verified records in `database.db` | [View Screenshot](#screenshot-database-verification) |
 
 ---
 
